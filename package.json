@@ -1,0 +1,25 @@
+{
+  "name": "discord-availability-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to check user availability",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obolgarov/discord-availability-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obolgarov/discord-availability-bot/issues"
+  },
+  "homepage": "https://github.com/obolgarov/discord-availability-bot#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "discord-message-handler": "^1.0.4",
+    "discord.js": "^11.2.1",
+    "mocha": "^4.0.1"
+  }
+}
